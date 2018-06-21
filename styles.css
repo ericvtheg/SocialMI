@@ -1,5 +1,5 @@
 body {
-    background-color: "#fafcf8";
+    background-color: "#feda6a";
 }
 h1 {
     color: blue;
@@ -9,7 +9,7 @@ p {
 }
 
 .btn-group button {
-    background-color: #4CAF50; /* Green background */
+    background-color: #000000; /* Green background */
     border: 1px solid green; /* Green border */
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
@@ -136,9 +136,10 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+   border: 25px solid navy;
 	text-align: center;
 	border: 3px solid #000000;
-	
+
 }
 
 /* Style all font awesome icons */
@@ -151,7 +152,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-	border-radius: 80%;
+	 border-radius: 80%;
     /*width: 33%;*/
 }
 
@@ -165,7 +166,7 @@ footer {
 /* Facebook */
 .fa-facebook {
     background: #3B5998;
-    color: white;	
+    color: white;
 }
 
 /* Twitter */
