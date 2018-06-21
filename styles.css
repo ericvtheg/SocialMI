@@ -133,19 +133,26 @@ p {
 /**** Social Media Icons ****/
 
 footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	border: 3px solid #000000;
+	
 }
 
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    /*width: 50px;*/
     text-align: center;
     text-decoration: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 33%;
+	border-radius: 80%;
+    /*width: 33%;*/
 }
 
 /* Add a hover effect if you want */
@@ -158,7 +165,7 @@ footer {
 /* Facebook */
 .fa-facebook {
     background: #3B5998;
-    color: white;
+    color: white;	
 }
 
 /* Twitter */
