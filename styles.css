@@ -1,20 +1,30 @@
 body {
-    background-color: "#feda6a";
+    background-color: #EAE7DC;
+    background-image: url('img/background-img3.jpg');
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-blend-mode: screen;
 }
-h1 {
-    color: blue;
-}
-p {
-    color: red;
+
+.title {
+   text-align: center;
+   color: #000000;
+   font-family: 'Inconsolata', monospace;
 }
 
 .btn-group button {
-    background-color: #000000; /* Green background */
-    border: 1px solid green; /* Green border */
+    background-color: #E85A4F; /* Background  color*/
+    border: 1px solid #8E8D8A; /* Green border */
     color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
+    padding: 15px 36px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: block; /* change this from inline-block */
+    margin:0 auto; /* this will center  it */
 }
 
 .btn-group button:not(:last-child) {
@@ -30,7 +40,7 @@ p {
 
 /* Add a background color on hover */
 .btn-group button:hover {
-    background-color: #3e8e41;
+    background-color: #E98074;
 }
 
 * {box-sizing:border-box}
@@ -42,6 +52,7 @@ p {
   max-height: 500px;
   position: relative;
   margin: auto;
+  padding: 10px;
 }
 
 /* Hide the images by default */
@@ -77,19 +88,19 @@ p {
 
 /* Caption text */
 .text {
-  color: #000000;
-  font-size: 15px;
-  padding: 8px 12px;
+  color: #D8C3A5;
+  font-size: 35px;
+  padding: -20px 5px;
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align: right;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #000000;
-  font-size: 12px;
+  color: #D8C3A5;
+  font-size: 25px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -104,7 +115,7 @@ p {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 1.5s ease;
 }
 
 .active, .dot:hover {
@@ -130,15 +141,19 @@ p {
 }
 /**** Image Slide Show ****/
 
+/*** Create Account Button ****/
+
+/*** Create Account Button ****/
+
 /**** Social Media Icons ****/
 
-footer {
+.social-media {
 	left: 0;
 	bottom: 0;
 	width: 100%;
    border: 25px solid navy;
 	text-align: center;
-	border: 3px solid #000000;
+	border: 0px solid #000000;
 
 }
 
@@ -152,7 +167,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-	 border-radius: 80%;
+	 border-radius: 60%;
     /*width: 33%;*/
 }
 
@@ -180,5 +195,11 @@ footer {
   background: #125688;
   color: white;
 
+}
+
+.fa-snapchat-ghost {
+   background: #fffc00;
+   color: white;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 /**** Social Media Icons ****/
