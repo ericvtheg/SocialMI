@@ -15,7 +15,7 @@
       <button style="width:25%">Explore</button>
       <button style="width:25%">Learn</button>
       <button style="width:25%">Mission</button>
-      <button style="width:25%">Promo</button>
+      <button style="width:25%">Promos</button>
    	</div>
    <div class="title" >
       <h1>Influential Social Media</h1>
@@ -56,13 +56,16 @@
      <span class="dot" onclick="currentSlide(3)"></span>
    </div>
 
-   <div class="persuasive paragrpah">
+   <h2 id="persuasive-title">What SMI Can Do For You</h2>
+
+   <div class="persuasive-paragraph">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
    </div>
 
    <!--<div class="btn-group btn-create" style="width:10%">
       <button style="text-align: center" id="btn-create" type="button">Create Account</button>
    </div>-->
+   <button style="width:25%">Create Account!</button>
 
    <div class="social-media">
       <a href="#" class="fa fa-facebook" target="_blank"></a>
@@ -70,6 +73,8 @@
 		<a href="#" class="fa fa-instagram" target="_blank"></a>
       <a href="#" class="fa fa-snapchat-ghost" target="_blank"></a>
    </div>
+
+
 
    </body>
 
@@ -79,19 +84,4 @@
 
 </html>
 
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 7000); // Change image every 2 seconds
-}
-</script>
+<script type="text/javascript" src="script.js"></script>
